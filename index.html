@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>MEZARLIK BİLGİ SİSTEMİ</title>
+<style>
+
+body {
+  font-family: Arial;
+}
+
+h2 {
+  padding: 2px;
+  color:rgb(56, 69, 82);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#grad1 {
+  background-size:cover;
+  background-color: #cccccc;
+  background-image: radial-gradient(rgb(72, 173, 148), rgb(248, 228, 228));
+}
+
+.row{
+  display:flex;
+}
+
+.left {
+  flex: 25%;
+  padding: 15px 0;
+}
+
+.right {
+  flex: 75%;
+  padding: 15px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid rgb(160, 155, 155);
+  border-radius: 8px;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(89, 109, 128);
+  border: none;
+  margin:40px 0px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+form.example button:hover {
+  background-color: rgb(56, 69, 82);
+}
+
+form.example button:active {
+  background-color: rgb(56, 69, 82);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+</head>
+<body style="background-color:rgb(51, 56, 61)">
+
+
+
+<div id="grad1">
+
+  <h2>MEZARLIK BİLGİ SİSTEMİ</h2>
+
+  <div class="row">
+    
+    <div class="left">
+      
+        <!--ARAMA KUTUCUKLARI-->
+
+      <p>Mezarlık</p>
+        <form class="example" action="/action_page.php" style="border:auto;max-width:300px">
+          <input type="text" placeholder="Mezarlık Seçiniz" name="search2">
+        </form>
+
+      <p>Adı</p>
+        <form class="example" action="/action_page.php" style="border:auto;max-width:300px">
+          <input type="text" placeholder="Adı" name="search2">
+        </form>
+
+      <p>Soyadı</p>
+        <form class="example" action="/action_page.php" style="border:auto;max-width:300px">
+          <input type="text" placeholder="Soyadı" name="search2">
+        </form>
+
+        <!--ARAMA BUTONU-->
+
+      <form class="example" action="/action_page.php" style="margin:auto;max-width:140px">
+        <button class="button">Ara</button>
+          </form>
+
+    </div>
+
+    <div class="right">
+    
+      <!--HARİTA-->
+
+      <body> 
+        <iframe src="https://www.google.com/maps/d/embed?mid=1684y0ZoARZC2O6kQ7Q9NYdrgK8LSOHc5" 
+        width="1120" height="600" style="margin:auto"></iframe>
+      </body>
+    
+    </div>
+  </div>
+</div>
+  
+</body>
+</html> 
